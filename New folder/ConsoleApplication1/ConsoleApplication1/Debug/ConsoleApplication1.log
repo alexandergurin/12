@@ -1,0 +1,16 @@
+﻿Построение начато 03-Dec-16 6:12:14 AM.
+     1>Проект "C:\Users\Vartotojas\Desktop\2 course\oop\New folder\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\vartotojas\desktop\2 course\oop\new folder\consoleapplication1\consoleapplication1\main.cpp(21): error C2988: неопознанное объявление или определение шаблона
+     1>c:\users\vartotojas\desktop\2 course\oop\new folder\consoleapplication1\consoleapplication1\main.cpp(21): error C2059: синтаксическая ошибка: <
+     1>c:\users\vartotojas\desktop\2 course\oop\new folder\consoleapplication1\consoleapplication1\main.cpp(21): error C2039: setflight: не является членом "`global namespace'"
+     1>c:\users\vartotojas\desktop\2 course\oop\new folder\consoleapplication1\consoleapplication1\main.cpp(33): error C2988: неопознанное объявление или определение шаблона
+     1>c:\users\vartotojas\desktop\2 course\oop\new folder\consoleapplication1\consoleapplication1\main.cpp(33): error C2059: синтаксическая ошибка: <
+     1>c:\users\vartotojas\desktop\2 course\oop\new folder\consoleapplication1\consoleapplication1\main.cpp(33): error C2039: getflight: не является членом "`global namespace'"
+     1>Построение проекта "C:\Users\Vartotojas\Desktop\2 course\oop\New folder\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" завершено (целевые объекты Build) с ошибкой.
+
+Сбой построения.
+
+Затраченное время: 00:00:00.52

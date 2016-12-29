@@ -1,0 +1,28 @@
+﻿Построение начато 17-Dec-16 11:14:39 AM.
+     1>Проект "C:\Users\Vartotojas\Desktop\2 course\oop\7\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\vartotojas\desktop\2 course\oop\7\consoleapplication1\consoleapplication1\ocw.h(11): error C2955: node: для использования класса шаблон требуется список аргументов шаблон
+                 c:\users\vartotojas\desktop\2 course\oop\7\consoleapplication1\consoleapplication1\ocw.h(4): см. объявление "node"
+                 c:\users\vartotojas\desktop\2 course\oop\7\consoleapplication1\consoleapplication1\main.cpp(9): см. ссылку на создание экземпляров класса шаблон при компиляции "Spisok<T>"
+                 with
+                 [
+                     T=int
+                 ]
+     1>c:\users\vartotojas\desktop\2 course\oop\7\consoleapplication1\consoleapplication1\main.cpp(22): error C2440: =: невозможно преобразовать "node *" в "node<T> *"
+                 with
+                 [
+                     T=int
+                 ]
+                 Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+     1>c:\users\vartotojas\desktop\2 course\oop\7\consoleapplication1\consoleapplication1\main.cpp(25): warning C4621: не найдена постфиксная форма "operator --" для типа "Spisok<T>"; используется префиксная форма
+                 with
+                 [
+                     T=int
+                 ]
+     1>Построение проекта "C:\Users\Vartotojas\Desktop\2 course\oop\7\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" завершено (целевые объекты Build) с ошибкой.
+
+Сбой построения.
+
+Затраченное время: 00:00:00.54

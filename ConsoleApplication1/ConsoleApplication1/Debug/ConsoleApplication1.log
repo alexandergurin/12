@@ -1,0 +1,21 @@
+﻿Построение начато 28-Dec-16 10:50:27 PM.
+     1>Проект "C:\Users\Vartotojas\Desktop\2 course\oop\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ConsoleApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ConsoleApplication1.cpp Matrix.cpp
+         Matrix.cpp
+     1>c:\users\vartotojas\desktop\2 course\oop\consoleapplication1\consoleapplication1\matrix.cpp(1): fatal error C1010: непредвиденный конец файла во время поиска предкомпилированного заголовка. Возможно, вы забыли добавить директиву "#include "stdafx.h"" в источник.
+         ConsoleApplication1.cpp
+     1>c:\users\vartotojas\desktop\2 course\oop\consoleapplication1\consoleapplication1\consoleapplication1.cpp(14): error C2039: printall: не является членом "Matrix"
+                 c:\users\vartotojas\desktop\2 course\oop\consoleapplication1\consoleapplication1\matrix.h(5): см. объявление "Matrix"
+     1>c:\users\vartotojas\desktop\2 course\oop\consoleapplication1\consoleapplication1\consoleapplication1.cpp(19): error C2039: printall: не является членом "Matrix"
+                 c:\users\vartotojas\desktop\2 course\oop\consoleapplication1\consoleapplication1\matrix.h(5): см. объявление "Matrix"
+     1>c:\users\vartotojas\desktop\2 course\oop\consoleapplication1\consoleapplication1\consoleapplication1.cpp(24): error C2039: printall: не является членом "Matrix"
+                 c:\users\vartotojas\desktop\2 course\oop\consoleapplication1\consoleapplication1\matrix.h(5): см. объявление "Matrix"
+     1>c:\users\vartotojas\desktop\2 course\oop\consoleapplication1\consoleapplication1\consoleapplication1.cpp(26): error C2039: printall: не является членом "Matrix"
+                 c:\users\vartotojas\desktop\2 course\oop\consoleapplication1\consoleapplication1\matrix.h(5): см. объявление "Matrix"
+         Создание кода...
+     1>Построение проекта "C:\Users\Vartotojas\Desktop\2 course\oop\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" завершено (целевые объекты Build) с ошибкой.
+
+Сбой построения.
+
+Затраченное время: 00:00:02.52
